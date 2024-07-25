@@ -10,7 +10,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Email.js parameters
+    
     const serviceID = 'service_j4qubli';
     const templateID = 'template_wxwz9l7';
     const userID = 'e1VqdKL0DxMHcQYwc';
