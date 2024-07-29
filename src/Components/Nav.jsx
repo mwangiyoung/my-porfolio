@@ -8,7 +8,6 @@ function Nav
         <div className="text-lg font-bold">My Portfolio</div>
         <ul className="flex space-x-4">
           <li><a href="/" className="hover:text-sky-800">Home</a></li>
-          <li><a href="/about" className="hover:text-sky-800">About</a></li>
           <li><a href="/projects" className="hover:text-sky-800">Projects</a></li>
           <li><a href="/contact" className="hover:text-sky-800">Contact</a></li>
         </ul>

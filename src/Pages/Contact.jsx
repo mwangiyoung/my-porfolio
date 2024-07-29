@@ -37,9 +37,11 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="  flex bg-gray-100 py-12">
+        <img  className=' w-[1000px] rounded-2xl ml-6' src='src/assets/images/Screenshot from 2024-07-29 09-28-22.png'/>
       <div className="max-w-md mx-auto bg-white p-8 rounded-lg shadow-lg">
-        <h2 className="text-2xl font-bold mb-6 text-center text-green-600">Contact Us</h2>
+
+        <h2 className="text-2xl font-bold mb-6 text-center text-green-600"> Contact <span className='text-sky-800'>Us</span></h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label htmlFor="name" className="block text-left text-gray-700 mb-2">Name:</label>

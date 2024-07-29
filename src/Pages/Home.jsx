@@ -17,18 +17,20 @@ const Home = () => {
   }, []);
 
   return (
+
     <section
-      className='h-[100vh] text-center py-60 bg-[url("src/assets/images/pexels-8moments-1266810.jpg")] bg-no-repeat bg-cover bg-center'
-      id="home"
+    className='h-[105vh]  text-center bg-slate-200 py-30 '
+    id="home"
     >
-      
+      <div className='flex justify-around items-center'>
+      <div>   
       <h1 className='text-sky-800 font-bold text-3xl'>
         Welcome to <span className='text-green-600'>My Portfolio</span>
       </h1>
-      <p className='text-2xl text-white'>
+      <p className='text-2xl text-black'>
         <span id="typed"></span>
       </p>
-      <div className='flex-row'>
+      <div className='flex-row ml-3'>
         <div>
 
       <button className='bg-green-600 text-white py-2 px-4 rounded mt-8' ><a  href="/projects">  Projects</a></button>
@@ -37,10 +39,27 @@ const Home = () => {
 
       <button className='bg-sky-800 text-white py-2 px-4 rounded mt-8' > <a  href="/contact"> Contact</a> </button>
 </div>
+
       </div>
+      
+      </div>
+      <div className='bg-[url("src/assets/images/IMG_0779.jpg")]  bg-no-repeat bg-cover bg-center h-2 p-[15em] w-[50px] mt-7 rounded-full'>
+
+</div>
         
  
+    </div>
+
+    <div>
+
+<h2 className="text-3xl font-bold  text-sky-800 text-center mb-8">About <span className='text-green-600'>Me</span> </h2>
+
+<p className="text-lg text-gray-800 text-center">
+  Hi, I'm <span className="text-sky-800 font-bold">[STEPHEN MWANGI]</span>. I have experience in HTML, CSS, JavaScript,MongoDB and Nodejs.<br/> I enjoy building user-friendly and responsive websites.
+</p>
+</div>
     </section>
+
   );
 };
 
