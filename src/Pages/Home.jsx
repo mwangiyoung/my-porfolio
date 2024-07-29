@@ -30,7 +30,7 @@ const Home = () => {
       <p className='text-2xl text-black'>
         <span id="typed"></span>
       </p>
-      <div className='flex-row ml-3'>
+      <div className='flex-row ml-4'>
         <div>
 
       <button className='bg-green-600 text-white py-2 px-4 rounded mt-8' ><a  href="/projects">  Projects</a></button>
